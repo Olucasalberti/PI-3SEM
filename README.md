@@ -9,10 +9,41 @@ Os diagramas de UML, desenvolvidos na primeira parte do projeto, estão incluíd
 - **Diagrama de Classe**
 
 ### Diagrama de Caso de Uso
-![Diagrama de Caso de Uso](link-do-diagrama-de-caso-de-uso)
+Para representar a estrutura do sistema, o diagrama de casos de uso inclui cinco funcionalidades principais, correspondentes aos tipos de cadastro. Essas funcionalidades são:
+1. **Cadastro de Pessoa Física**
+   - O usuário pode cadastrar informações de uma pessoa física, como nome, CPF, endereço e telefone.
+2. **Cadastro de Pessoa Jurídica**
+   - O usuário pode cadastrar informações de uma empresa, como nome da empresa, CNPJ, endereço e telefone.
+3. **Cadastro de Professores**
+   - O usuário pode cadastrar informações de professores, como nome, CPF, departamento e titulação.
+4. **Cadastro de Fornecedores**
+   - O usuário pode cadastrar fornecedores, incluindo informações como nome da empresa fornecedora, CNPJ e ramo de atividade.
+5. **Cadastro de Alunos**
+   - O usuário pode cadastrar alunos, incluindo dados como nome, CPF, matrícula e curso.
+
+Essas funcionalidades são executadas por um único ator: o **Administrador** do sistema, que tem acesso a todos os cadastros.
 
 ### Diagrama de Classe
-![Diagrama de Classe](link-do-diagrama-de-classe)
+O sistema inclui a seguinte estrutura de classes:
+- **Pessoa Física (Classe Base)**
+  - **Atributos**: nome, CPF/CNPJ, endereço, telefone
+  - **Métodos**: cadastrar(), editar(), excluir()
+- **Aluno (Subclasse de Pessoa)**
+  - **Atributos**: matrícula, curso
+  - **Métodos**: consultarHistorico(), inscreverCurso()
+- **Professor (Subclasse de Pessoa)**
+  - **Atributos**: departamento, titulação
+  - **Métodos**: cadastroNotas(), editarNotas()
+- **Fornecedor (Subclasse de Pessoa Jurídica)**
+  - **Atributos**: ramo de atividade, contatos comerciais
+  - **Métodos**: cadastrarProduto(), consultarPedido()
+- **Pessoa Jurídica (Subclasse de Pessoa)**
+  - **Atributos**: CNPJ, razão social
+  - **Métodos**: cadastroPJ(), editarPJ()
+
+Para ilustrar as informações citadas acima, segue a imagem mostrando como funcionariam as relações das classes e seus atributos:
+
+![image](https://github.com/user-attachments/assets/5ac14ca6-bec4-48d3-9413-4f03873075e7)
 
 ## Protótipos
 Os protótipos das interfaces foram desenvolvidos utilizando **Figma** e estão acessíveis abaixo. Cada protótipo reflete a interface para os seguintes cadastros:
