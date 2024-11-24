@@ -54,6 +54,3 @@ Para ilustrar as informações citadas acima, segue a imagem mostrando como func
 - Bruno Rafael de Mendonça Simas
 - João Rafael de Oliveira de Macedo
 - Izabel Raridja Santos Guimarães
-
-## Licença
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
