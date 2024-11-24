@@ -45,27 +45,6 @@ Para ilustrar as informações citadas acima, segue a imagem mostrando como func
 
 ![image](https://github.com/user-attachments/assets/5ac14ca6-bec4-48d3-9413-4f03873075e7)
 
-## Protótipos
-Os protótipos das interfaces foram desenvolvidos utilizando **Figma** e estão acessíveis abaixo. Cada protótipo reflete a interface para os seguintes cadastros:
-1. **Cadastro de Pessoa Física**
-2. **Cadastro de Pessoa Jurídica**
-3. **Cadastro de Professores**
-4. **Cadastro de Fornecedores**
-5. **Cadastro de Alunos**
-
-Acesse os protótipos interativos:
-
-- [Protótipo - Cadastro de Pessoa Física](link-do-prototipo)
-- [Protótipo - Cadastro de Pessoa Jurídica](link-do-prototipo)
-- [Protótipo - Cadastro de Professores](link-do-prototipo)
-- [Protótipo - Cadastro de Fornecedores](link-do-prototipo)
-- [Protótipo - Cadastro de Alunos](link-do-prototipo)
-
-## Instruções de Execução
-Para executar os protótipos:
-1. Acesse os links fornecidos.
-2. Navegue pelas telas interativas de cadastro e explore as funcionalidades.
-
 ## Contribuidores
 - Lucas Alberti Machado
 - Sergio Augusto do Espirito Santo
